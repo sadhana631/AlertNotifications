@@ -1,4 +1,4 @@
-import {GrFormClass} from 'react-icon/gr'
+import {GrFormClose} from 'react-icons/gr'
 
 import './index.css'
 
@@ -8,7 +8,7 @@ const Notification = props => {
   return (
     <div className="notification">
       <div className="notification-content">{children}</div>
-      <GrFormClass className="class-icon" />
+      <GrFormClose className="class-icon" />
     </div>
   )
 }
