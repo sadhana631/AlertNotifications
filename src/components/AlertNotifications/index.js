@@ -15,7 +15,7 @@ const AlertNotifications = () => {
         <h1 className="message-heading info">Info</h1>
 
         <p className="description">
-         You can access all the files in the folder
+          You can access all the files in the folder
         </p>
       </div>
     </Notification>
